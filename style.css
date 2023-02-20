@@ -1,0 +1,152 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: black;
+    color: rgb(142, 138, 138);
+}
+
+body{
+    padding: 20px;
+}
+
+nav{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+     margin-top:30px;
+     gap: 20px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.card{
+    padding: 20px;
+    border: 1px solid grey;
+
+}
+.container div :nth-child(1)
+{
+    padding: 6px;
+}
+
+img{
+    padding: 0px;
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 5px;
+
+}
+
+.item{
+    border: 1px solid grey;
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+
+    border-radius: 10px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+flex-grow: 1;   
+
+}
+img{
+    margin-top: 0;
+    border-radius: 50%;
+   width: 30%;
+
+}
+.bottom-card{
+     display: flex;
+     flex-flow: column wrap;
+     gap: 10px;
+     border-radius: 10px;
+    }
+    
+.fa{
+    text-decoration: none;
+        color: rgb(118, 113, 113); 
+    }
+
+
+ul li{
+        margin-left: 10px;
+    }
+
+.profile{
+    border-radius: 10px;
+    font-size: 18px;
+}
+.profile li{
+    margin-top: 10px;
+}
+table{
+    border: 1px solid rgb(100, 97, 97);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    flex-grow: 1;
+    /* border-spacing: 0; */
+}
+
+td{
+    padding: 10px;
+}
+ thead td{
+    border-bottom:1px solid grey ;
+    
+}
+td{
+    border-right: 1px solid gray;
+}
+table td:nth-child(3)
+{
+    border-right:none ;
+}
+table td:nth-child(1)
+{
+    font-size: 21px;
+}
+
+
+
+
+input[type="checkbox"]:enabled:checked{
+    background-color: rgb(137, 140, 142);
+    color: rgb(19, 18, 18);
+    
+}
+
+input[type="checkbox"]{
+    background-color: black;
+    height: 17px;
+    width: 17px;
+
+    accent-color: rgb(137, 140, 142);
+
+}
+@media  (max-width:800px) {
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    
+}
